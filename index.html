@@ -21,15 +21,27 @@
       </section>
 
       <nav>
+        <div class="hamburger-menu">
+          <div class="ham-bar bar-top"></div>
+          <div class="ham-bar bar-mid"></div>
+          <div class="ham-bar bar-bottom"></div>
+        </div>
         <a href="#">
           <img src="img/logo-udemy.svg.png" alt="logo" />
         </a>
-        <div class="nav-search">
+        <div class="nav-search" id="navLinks">
           <a href="#">Categories</a>
           <label id="label" for="input"><i class="fa fa-search"></i></label>
-          <input type="text" placeholder="Search.." name="search" />
+          <input
+            type="text"
+            placeholder="Search.."
+            name="search"
+            class="input"
+          />
           <a href="#">Udemy Business</a>
           <a href="#">Teach on Udemy</a>
+          <a href="#" class="login">Log In</a>
+          <a href="#" class="signup">Sign Up</a>
         </div>
         <div class="nav-right">
           <a href="#"><img src="img/cart.png" alt="" /></a>
@@ -418,5 +430,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
